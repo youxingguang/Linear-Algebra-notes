@@ -16,14 +16,19 @@
  ```
 
 注：寻找主元，实际过程是在对角线在放置一个不为0的元素； 上述流程使用行主元，不会改变变量的位置，后续便于求解线性方程。若使用列主元，交换列影响变量位置。
+
 代码实现-GaussianElimination.java
 
 2. 求解线性规划后提取 最终单纯形表
+
    代码实现-ExtractBasic.java
 
-3. 利用CGLP 构造析取不等式
-   
+   测试例子 见Integer programming 8.11,打印的变量系数对应 最终单纯形表达的系数矩阵。
 
+3. 利用CGLP 构造析取不等式(disjunctive inequality)
+
+   代码实现见-ValidIneq1.java
+   
 
 
    
