@@ -28,6 +28,12 @@
 3. 利用CGLP 构造析取不等式(disjunctive inequality)
 
    代码实现见-ValidIneq1.java
+
+4.  1:1翻译 cplex AddMIPex5.java
+   
+    内容:使用callback 实现user cuts 和 lazy constraints
+      
+    对应CutCallBack.java 
    
 
 
