@@ -33,7 +33,10 @@
    
     内容:使用callback 实现user cuts 和 lazy constraints
       
-    对应CutCallBack.java 
+    对应CutCallBack.java
+5. 增加BranchAndCutSimple.java
+
+   在CutCallBack.java基础上增加branch callback, 分支回调没有自定义分支策略，仅作演示算法框架。
    
 
 
